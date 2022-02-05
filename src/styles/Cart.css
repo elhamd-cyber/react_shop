@@ -1,0 +1,42 @@
+.lmj-cart {
+	color: white;
+	background: #e96443;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 300px;
+	border-radius: 25px;
+	margin: 2%;
+}
+.item{
+	background-color:#000428 ;
+	padding: 2%;
+	border-radius: 7%;
+}
+
+.lmj-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.lmj-cart-toggle-button {
+    width: 100%;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+	align-self: flex-end;
+}
+
+.lmj-cart-closed {
+	padding: 32px;
+	width: 300px;
+}
+
+.lmj-cart-closed > button {
+	color: black;
+}
