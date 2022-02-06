@@ -8,7 +8,7 @@ function Categories({ setActiveCategory, categories, activeCategory }) {
 				onChange={(e) => setActiveCategory(e.target.value)}
 				className='p-2 w-50 lmj-categories-select'
 			>
-				<option value='' disable >Seclect one</option>
+				<option value='' disable >Select a category</option>
 				{categories.map((cat) => (
 					<option key={cat} value={cat}>
 						{cat}
