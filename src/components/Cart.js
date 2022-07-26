@@ -32,10 +32,12 @@ function Cart({ cart, updateCart }) {
 						))}
 					</ul>
 					<h3>ALL :{total}€</h3>
-					<button className='btn btn-sm w-100 btn-info text-white' onClick={() => updateCart([])}>Clean</button>
+					<button className='btn btn-sm w-100 btn-success text-white mt-1' onClick={() => updateCart([])}>Confirm</button>
+
+					<button className='btn btn-sm w-100 btn-info text-white mt-1' onClick={() => updateCart([])}>Clean</button>
 				</div>
 			) : (
-				<div>No flours</div>
+				<div>No flowers</div>
 			)}
 		</div>
 	) : (

@@ -9,3 +9,13 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+.lmj-plant-btn{
+	position: relative;
+	top: -21%;
+	right: -49%;
+	background-color: #102b43;
+	color: white;
+	text-justify: auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px  rgb(134, 135, 159)
+}

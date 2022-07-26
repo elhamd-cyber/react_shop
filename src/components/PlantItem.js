@@ -7,15 +7,19 @@ function handleClick(plantName) {
 
 function PlantItem({ cover, name,cat, water, light, price }) {
 	return (
-		<li className='lmj-plant-item text-white' onClick={() => handleClick}>
-			<span className='lmj-plant-item-price'>{price}€</span>
-			<img className='lmj-plant-item-cover ' src={cover} alt={`${name}-cover`} />
-			<div> {name}</div>
-			<div className='text-left'> {cat}</div>
+		<li className='lmj-plant-item text-white text-bold' onClick={() => handleClick}>
+			<span className='lmj-plant-item-price px-3 '> {price}€</span>
+			<img className='lmj-plant-item-cover' src={cover} alt={`${name}-cover`} />
+			<div className='px-3 '> {name}</div>
+			
 			<div>
-				<CareScale careType='water' scaleValue={water} />
-				<CareScale careType='light' scaleValue={light} />
+				<CareScale className='px-3 ' careType='water' scaleValue={water} />
+				<CareScale className='px-3 ' careType='light' scaleValue={light} />
+		
 			</div>
+			<div className='text-left px-4 '>  {cat} Category</div>
+
+			
 		</li>
 	)
 }

@@ -7,13 +7,22 @@
 	justify-content:center;
 	flex-direction: row;
 	align-items: center;
+	background-image: url(../assets/header.jfif);
+	background-position-y: -300px;
+	background-size: cover;
+	letter-spacing: 40px;
+	box-shadow: rgba(147, 147, 174, 0.25) 0px 50px 100px -20px, rgba(135, 129, 129, 0.3) 0px 30px 60px -30px, rgba(159, 164, 170, 0.35) 0px -2px 6px 0px inset;
+
 }
 
 .lmj-title {
 	text-align: center;
+	box-shadow: rgba(147, 147, 174, 0.25) 0px 50px 100px -20px, rgba(135, 129, 129, 0.3) 0px 30px 60px -30px, rgba(159, 164, 170, 0.35) 0px -2px 6px 0px inset;
+
 }
 
 .lmj-logo {
 	height: 45px;
 	width: 45px;
+
 }

@@ -7,6 +7,9 @@
 	flex-direction: column;
 	align-items: center;
 	font-weight: 500;
+	background-image: url("../assets/header.jfif");
+	background-size: cover;
+	background-position-y: -260px;
 }
 
 .lmj-footer-elem {
